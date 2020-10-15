@@ -1,0 +1,82 @@
+/* Css style for splsh page: background image, tnsparency for colour block, fonts*/
+/* modified from w3schools.com - CSS*/
+
+
+body {
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  
+  padding: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  text-align: center;
+  margin: 5px;
+  
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+   margin: 5px;
+  opacity: .5;
+}
+
+/* Style the topnav links */
+.topnav a {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+aside {
+  float: left;
+ } 
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
