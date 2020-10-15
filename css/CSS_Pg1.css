@@ -20,11 +20,9 @@ body {
   
 }
 
-/*formated image centre of page*/
+/*formated image */
 h1 {
-  display: block;
-  float: left;
-  width: auto;
+    width: 100%;
 }
 
 /* Style the top navigation bar */
