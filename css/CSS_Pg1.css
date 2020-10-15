@@ -21,7 +21,7 @@ body {
 }
 
 /*formated image centre of page*/
-img {
+h1 {
   display: block;
   float: left;
   width: auto;
