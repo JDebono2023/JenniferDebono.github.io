@@ -1,4 +1,3 @@
-/* Css style for splsh page: background image, tnsparency for colour block, fonts*/
 /* modified from w3schools.com - CSS*/
 
 body {
@@ -54,7 +53,6 @@ article {
   background-color: Gainsboro;
   height: 460px; 
 }
-
 
 
 .row:after {
