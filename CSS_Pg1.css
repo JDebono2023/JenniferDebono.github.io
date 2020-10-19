@@ -2,12 +2,12 @@
 /* modified from w3schools.com - CSS*/
 /* front from per W3S */
 
-
+/* base colour for all web pages */
 body {
   background-color: LightBlue;
  }
 
-
+/* master header format, colour and font*/
 .header {
   padding: 20px;
   border-style: solid;
@@ -37,22 +37,25 @@ body {
 	text-align: center;
 	color: white;
 }
-
+/* nav icons change colour when mouse arrow hovers */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
+/* placement for image on index page */
 aside {
   float: left;
  } 
 
+/* formatting for lists used on all pages */
 ul.b {
   list-style-type: none;
   font-family: 'Aleo';
   text-align:center;
 }
 
+/* formatting for text/box on index page */
 article {
   float: right;
   padding: 20px;
@@ -62,6 +65,7 @@ article {
   font-size: 20px;
 }
 
+/* formatting for text/box on background page: education */
 .column1 {
   float: left;
   width: 50%;
@@ -70,6 +74,7 @@ article {
   text-align:center;
 }
 
+/* formatting for text/box on background page: work */
 .column2 {
   float: left;
   width: 50%;
@@ -78,6 +83,7 @@ article {
   text-align:center;
 }
 
+/* formatting for text/box on contact page */
 .column3 {
   float: left;
   width:100%;
@@ -85,6 +91,8 @@ article {
   font-size: 18px;
   text-align:center;
 }
+
+/* formatting for after columns */
 .row:after {
   content: "";
   display: table;
